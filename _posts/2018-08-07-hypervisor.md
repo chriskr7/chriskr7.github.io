@@ -90,7 +90,7 @@ Kernel Virtualization과 달리 각각의 Guest OS들은 자기 자신의 Kernel
 Kernel Virtualization과 비슷하다. 
 
 ![Kernel Level
-Virtualization](https://www.dropbox.com/s/mwddff2hlbzmirh/shared_kernel.jpeg?raw=1)
+Virtualization](https://www.dropbox.com/s/y3dh6o30kjsvv0p/kernel_level.jpg?raw=1)
 
 
 + **Kernel Level Virtualization 사용한 기술**
