@@ -217,6 +217,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
+    json (2.6.1)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -274,7 +275,8 @@ GEM
       unf_ext
     unf_ext (0.0.8)
     unicode-display_width (1.8.0)
-    zeitwerk (2.5.3)
+    webrick (1.7.0)
+    zeitwerk (2.5.4)
 
 PLATFORMS
   ruby
@@ -282,7 +284,11 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (>= 3.7.4)
+  jekyll-commonmark-ghpages
+  jemoji
+  json
   kramdown (>= 2.3.1)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    1.17.2
