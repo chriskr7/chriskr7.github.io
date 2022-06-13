@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "LaZy Blog"
+title                    : "Hans Blog"
 title_separator          : "-"
 name                     : "HansDev, Inc"
 description              : "LaZy Blog"
@@ -104,7 +104,7 @@ author:
   avatar           : "/assets/images/chris.jpeg"
   bio              : "Programmer, System Designer"
   location         : "Seoul, Korea"
-  email            : "chriskr7@gmail.com"
+  email            : "hansdev.kr@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -117,7 +117,7 @@ author:
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : "chris.han.kr"
+  instagram        :
   lastfm           :
   linkedin         : "chris-han-30770876"
   pinterest        :
