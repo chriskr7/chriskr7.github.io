@@ -19,8 +19,8 @@ comments: true
 *  Description : LaZy Queue
 *  Written     : 2010.02.16
 *  Version     : 1.2
-*  Author      : a.k.a LaZy Developer
-*  Contacts    : chriskr7@gmail.com, https://hansdev.kr
+*  Author      : Hansdev
+*  Contacts    : hansdev.kr@gmail.com, https://hansdev.kr
 *******************************************************************************/
 #ifndef _LAZY_QUEUE_H_
 #define _LAZY_QUEUE_H_
@@ -82,14 +82,14 @@ void deleteContainer(_lazyContainer* lazyContainer);
 
 **source**
 ```cpp
-/******************************************************************************/
-/*  File        : LaZyContainer.c                                             */
-/*  Description : LaZy Queue                                                  */
-/*  Written     : 2010.02.16                                                  */
-/*  Version     : 1.2                                                         */
-/*  Author      : a.k.a LaZy Developer                                        */
-/*  Contacts    : chriskr7@gmail.com, https://hansdev.kr                      */
-/******************************************************************************/
+/*******************************************************************************
+*  File        : LaZyContainer.c
+*  Description : LaZy Queue
+*  Written     : 2010.02.16
+*  Version     : 1.2
+*  Author      : Hansdev
+*  Contacts    : hansdev.kr@gmail.com, https://hansdev.kr
+*******************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <memory.h>
@@ -191,8 +191,8 @@ void deleteContainer(_lazyContainer* lazyContainer)
 *  Description : LaZy Queue
 *  Written     : 2010.02.16
 *  Version     : 1.2
-*  Author      : a.k.a LaZy Developer
-*  Contacts    : chriskr7@gmail.com, https://hansdev.kr
+*  Author      : Hansdev
+*  Contacts    : hansdev.kr@gmail.com, https://hansdev.kr
 *******************************************************************************/
 #include <stdio.h>
 #include <LaZyContainer.h>
