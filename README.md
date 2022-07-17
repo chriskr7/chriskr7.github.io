@@ -1,1 +1,1 @@
-LaZy Blog
+Hans Blog
