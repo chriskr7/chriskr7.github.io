@@ -11,19 +11,21 @@ OS는 각각의 프로세스들의 working directory들을 알고 있다. 하지
 
 이런 이유로 Flask 0.8에서 **flask.instance_path**라는 새로운 속성를 추가하였다. 이 속성은 Instance Folders라는 새로운 개념을 이용한다. Instance Folders는 version control안에 있지 않고 Deployment Specific이다. 그러므로 이 폴더가 config/설정 파일들을 넣기에는 최적의 장소이다.
 
-
 ```python
 app = Flask(__name__, instance_path='/path/to/instance/folder')
 ```
+
 여기서 instance_path에 지정하는 경로는 절대 경로이다. instance_path가 주어지지 않았다면 아래의 default 폴더가 사용된다.
 
 * Uninstalled module
+
 ```python
 /app.py
 /instance
 ```
 
 * Uninstalled package
+
 ```python
 /myapp
   /__init__.py
@@ -31,14 +33,17 @@ app = Flask(__name__, instance_path='/path/to/instance/folder')
 ```
 
 * Installed module or package
+
 ```python
 $PREFIX/lib/python2.X/site-packages/myapp
 $PREFIX/var/myapp-instance
 ```
+
 $PREFIX는 Python 설치 폴더이다.
 
 Flask에서는 보통 config 파일에서 config object를 load하므로 instance 폴더의 위치의 상관없이 instance 폴더안의 config 파일을 load할 수 있게 있다. (default는 application root 폴더를 보고 있다.)
 예를 들면 Uninstalled package가 아래와 같이 있다고 할 때
+
 ```python
 /myapp
   /__init__.py
@@ -46,12 +51,14 @@ Flask에서는 보통 config 파일에서 config object를 load하므로 instanc
 ```
 
 **1번**
+
 ```python
 app = Flask(__name__)
 app.config.from_pyfile('application.cfg', silent=True)
 ```
 
 **2번**
+
 ```python
 app = Flask(__name__, instance_relative_config=True)
 app.config.from_pyfile('application.cfg', silent=True)
@@ -71,8 +78,8 @@ with app.open_instance_resource('applicatoin.cfg') as f:
   config = f.read()
 ```
 
-
 ---
 
-**Reference**
+### Reference
+
 + [Configuration Handling — Flask 1.0.2 documentation](http://flask.pocoo.org/docs/1.0/config/)

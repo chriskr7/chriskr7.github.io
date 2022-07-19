@@ -12,7 +12,8 @@ comments: true
 때 container 형식의 queue를 써야 할 때가 있습니다. 퍼포먼스가 Critical한 작업이
 아니면 간단히 아래와 같은 형태로 짜서 사용할 수 있습니다.
 
-**header**
+### header
+
 ```cpp
 /*******************************************************************************
 *  File        : LaZyContainer.h
@@ -80,7 +81,8 @@ void deleteContainer(_lazyContainer* lazyContainer);
 #endif /* #ifndef _LAZY_QUEUE_H_ */[-] Collapse
 ```
 
-**source**
+### source
+
 ```cpp
 /*******************************************************************************
 *  File        : LaZyContainer.c
@@ -184,7 +186,8 @@ void deleteContainer(_lazyContainer* lazyContainer)
 }
 ```
 
-**test**
+### test
+
 ```cpp
 /*******************************************************************************
 *  File        : LaZyContainerTest.c
