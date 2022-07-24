@@ -19,6 +19,7 @@ comments: true
   Computer)위에서 돌게 해준다.
 
 ![Hypervisor](https://www.dropbox.com/s/qgchb6vpqt016jn/hypervisor.jpeg?raw=1)
+
 [image source: <https://developer.ibm.com/tutorials/l-hypervisor/>]
 
 ## 하드웨어 가상화의 장점 (Advantages of platform virtualization)
@@ -56,6 +57,8 @@ U.S. EPA 연구에 의하면 서버 용량의 약 5%만 실제로 사용된다�
 ![Guest Operating System
 Virtualization](https://www.dropbox.com/s/jlzegmqs10h5d88/guest_os.jpeg?raw=1)
 
+[image source: <https://www.virtuatopia.com/index.php?title=An_Overview_of_Virtualization_Techniques>]
+
 + **Guest Operating System Virtualization 사용한 기술**
   + [VMware](https://www.vmware.com/kr.html)
   + [VirtualBox](https://www.virtualbox.org/)
@@ -76,6 +79,8 @@ System을 가지며 Host OS의 Kernel을 공유한다.
 
 ![Shared Kernel
 Virtualization](https://www.dropbox.com/s/mwddff2hlbzmirh/shared_kernel.jpeg?raw=1)
+
+[image source: <https://www.virtuatopia.com/index.php?title=An_Overview_of_Virtualization_Techniques>]
 
 이런 방식의 가상화는 Kernel이 시스템 리부팅 없이 동적으로 현재 Root File
 System을 변경할 수 있다는 것(리눅스, 유닉스의 chroot)에 기반한다. **이런 가상화의
@@ -100,6 +105,9 @@ Kernel Virtualization과 비슷하다.
 ![Kernel Level
 Virtualization](https://www.dropbox.com/s/y3dh6o30kjsvv0p/kernel_level.jpg?raw=1)
 
+[image source: <https://www.virtuatopia.com/index.php?title=An_Overview_of_Virtualization_Techniques>]
+
+
 + **Kernel Level Virtualization 사용한 기술**
   + [User-mode Linux](http://user-mode-linux.sourceforge.net/)
   + [Linux KVM](https://www.linux-kvm.org/page/Main_Page)
@@ -121,6 +129,9 @@ Virtualization](https://www.dropbox.com/s/y3dh6o30kjsvv0p/kernel_level.jpg?raw=1
 
 ![Hypervisor Type](https://www.dropbox.com/s/81o9mskew68y6ms/hypervisor_type.jpeg?raw=1)
 
+[image source: <https://en.wikipedia.org/wiki/Hypervisor>]
+
+
 ## Type1 하이퍼바이저 가상화기술
 
 ### Protection Rings
@@ -138,6 +149,8 @@ Ring 0에서만 수행하도록 만들어졌다. 이러한 문제들을 해결�
 나뉜다.
 ![Protection
 Rings](https://www.dropbox.com/s/5v6v4ozq6zgz4d6/x86_rings.png?raw=1)
+
+[image source: <https://en.wikipedia.org/wiki/Protection_ring>]
 
 ### Para-virtualization
 
