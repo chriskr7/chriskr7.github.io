@@ -19,8 +19,7 @@ comments: true
   Computer)위에서 돌게 해준다.
 
 ![Hypervisor](https://www.dropbox.com/s/qgchb6vpqt016jn/hypervisor.jpeg?raw=1)
-
-[image source: figure 1 <https://developer.ibm.com/tutorials/l-hypervisor/>]
+[image source: <https://developer.ibm.com/tutorials/l-hypervisor/>]
 
 ## 하드웨어 가상화의 장점 (Advantages of platform virtualization)
 
