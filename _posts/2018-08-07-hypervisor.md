@@ -147,6 +147,7 @@ Kernel이 Ring 0에서 구동된다. OS위에서 구동되는 어플들은 일�
 Ring 0에서만 수행하도록 만들어졌다. 이러한 문제들을 해결하기 위한 방안이 최근에
 고안되었고 그 방법은 크게 Para-virtualiczation과 Full Virtualization으로
 나뉜다.
+
 ![Protection
 Rings](https://www.dropbox.com/s/5v6v4ozq6zgz4d6/x86_rings.png?raw=1)
 
@@ -160,6 +161,7 @@ OS System). 이해를 돕기 위해 약간 풀어쓰면 Guest OS Kernel안의 Ri
 돌게되어 있는 동작들이 있는데 이를 하이퍼바이저를 통하여 동작할 수 있도록
 수정하는 것이다. Guest OS Kernel을 수정해야 하기 때문에 이 기법은 Linux와 같이
 오픈소스 OS에 주로 쓰인다.
+
 ![Para-virtualization](https://www.dropbox.com/s/m0u28rwvsph36b6/para_virtualization.jpeg?raw=1)
 
 ### Full Virtualization
