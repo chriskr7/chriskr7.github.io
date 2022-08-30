@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hans Blog"
+title                    : "Hans Tech Blog"
 title_separator          : "-"
 name                     : "Hansdev, Inc"
-description              : "Hans Blog"
+description              : "Hans Tech Blog"
 url                      : "http://hansdev.kr"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "chriskr7/chriskr7.github.io"
