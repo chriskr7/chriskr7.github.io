@@ -13,13 +13,17 @@ OS는 각각의 프로세스들의 working directory들을 알고 있다.
 파일을 찾을 수 있지만 Application이 package일 경우
 root_path는 package의 contents를 바라보기 때문에 올바르게 작동하지 않는다.
 
-이런 이유로 Flask 0.8에서 **flask.instance_path**라는 새로운 속성를 추가하였다. 이 속성은 Instance Folders라는 새로운 개념을 이용한다. Instance Folders는 version control안에 있지 않고 Deployment Specific이다. 그러므로 이 폴더가 config/설정 파일들을 넣기에는 최적의 장소이다.
+이런 이유로 Flask 0.8에서 **flask.instance_path**라는 새로운 속성를 추가하였다.
+이 속성은 Instance Folders라는 새로운 개념을 이용한다.
+Instance Folders는 version control안에 있지 않고 Deployment Specific이다.
+그러므로 이 폴더가 config/설정 파일들을 넣기에는 최적의 장소이다.
 
 ```python
 app = Flask(__name__, instance_path='/path/to/instance/folder')
 ```
 
-여기서 instance_path에 지정하는 경로는 절대 경로이다. instance_path가 주어지지 않았다면 아래의 default 폴더가 사용된다.
+여기서 instance_path에 지정하는 경로는 절대 경로이다.
+instance_path가 주어지지 않았다면 아래의 default 폴더가 사용된다.
 
 * Uninstalled module
 
@@ -68,9 +72,16 @@ app = Flask(__name__, instance_relative_config=True)
 app.config.from_pyfile('application.cfg', silent=True)
 ```
 
-위의 1번에서는 default가 application root 폴더이므로 /myapp 폴더안에서 application.cfg를 찾을 것이며, 2번에서는 instance_relative_config를 True로 설정하므로 instance 폴더가 어디에 있든지 instance 폴더안에서 application.cfg에서 찾을 것이다. **silent=True**는 해당 폴더에 application.cfg파일이 없어도 complain하지 말고 조용히 있으라는 설정이다.
+위의 1번에서는 default가 application root 폴더이므로 /myapp 폴더안에서
+application.cfg를 찾을 것이며, 2번에서는 instance_relative_config를 True로
+설정하므로 instance 폴더가 어디에 있든지
+instance 폴더안에서 application.cfg에서 찾을 것이다.
+**silent=True**는 해당 폴더에 application.cfg파일이 없어도
+complain하지 말고 조용히 있으라는 설정이다.
 
-instance folder의 경로는 **Flask.intance_path**를 통해 알 수 있다. Flask는 또한 instance folder에서 파일을 열기 위한 shortcut인 **Flask.open_instance_resource()** method를 제공하고 있다.
+instance folder의 경로는 **Flask.intance_path**를 통해 알 수 있다.
+Flask는 또한 instance folder에서 파일을 열기 위한
+shortcut인 **Flask.open_instance_resource()** method를 제공하고 있다.
 
 ```python
 filename = os.path.join(app.instance_path, 'application.cfg')
