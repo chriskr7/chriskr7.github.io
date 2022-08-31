@@ -34,8 +34,9 @@ U.S. EPA 연구에 의하면 서버 용량의 약 5%만 실제로 사용된다�
 서버 수가 줄어들면 유지비용 및 전력, 관리비용 절감할 수 있다. 또한 관리자에게
 배정되는 서버 수가 줄어들기 때문에 안정성이 높아진다.
 
-**Note**: 이렇든 저렇든 해도 가장 큰 장점은 **비용절감**이다. 조사에 의하면 하드웨어 가상화로
-**50 ~ 70% overall IT 비용**을 줄인 사례들이 많다.
+**Note**: 이렇든 저렇든 해도 가장 큰 장점은 **비용절감**이다.
+조사에 의하면 하드웨어 가상화로 **50 ~ 70% overall IT 비용**을 줄인
+사례들이 많다.
 {: .notice--warning}
 
 
@@ -43,7 +44,11 @@ U.S. EPA 연구에 의하면 서버 용량의 약 5%만 실제로 사용된다�
 
 ### Guest Operating System Virtualization
 
-가장 이해하기 쉬운 가상화 기술이다. 하드웨어 장비(보통 서버)에서 윈도우, 리눅스, 유닉스, 맥OS와 같이 수정되지 않은 원본 OS 이미지, 즉 Guest OS를 구동한다. 이 수정되지 않은 OS들을 구동하는 것은 virtual application (가상화 어플)이 담당하고 이 virtual application안에서 Guest OS를 돌리기 위한 VM(가상화 머신)들이 생성된다.
+가장 이해하기 쉬운 가상화 기술이다. 하드웨어 장비(보통 서버)에서 윈도우,
+리눅스, 유닉스, 맥OS와 같이 수정되지 않은 원본 OS 이미지, 즉 Guest OS를
+구동한다. 이 수정되지 않은 OS들을 구동하는 것은
+virtual application (가상화 어플)이 담당하고 이 virtual application안에서
+Guest OS를 돌리기 위한 VM(가상화 머신)들이 생성된다.
 
 이 virtual application은 각각의 VM들의 시작, 종료, 관리등을 책임진다. 특히
 물리적 하드웨어의 리소스에 대한 접근을 각각의 VM 들을 대신하여 관리한다.
@@ -67,8 +72,8 @@ Virtualization](https://www.dropbox.com/s/jlzegmqs10h5d88/guest_os.jpeg?raw=1)
 ### Shared Kernal Virtualization
 
 Shared Kernel Virtualization은 리눅스, 유닉스의 구조적 설계의 이점들을 취했다.
-이 기술을 이해하기 위해서는 **Kernel**과 **Root File System**을 먼저 이해하는 것이
-도움이 된다.
+이 기술을 이해하기 위해서는 **Kernel**과 **Root File System**을
+먼저 이해하는 것이 도움이 된다.
 
 + Kernel : 리눅스, 유닉스의 core는 Kernel(커널)이다. Kernel은 OS와 물리적
   하드웨어 간의 모든 상호 통신 및 관계를 관리한다.
@@ -80,7 +85,8 @@ System을 가지며 Host OS의 Kernel을 공유한다.
 ![Shared Kernel
 Virtualization](https://www.dropbox.com/s/mwddff2hlbzmirh/shared_kernel.jpeg?raw=1)
 
-[image source: <https://www.virtuatopia.com/index.php?title=An_Overview_of_Virtualization_Techniques>]
+[image source:
+<https://www.virtuatopia.com/index.php?title=File:Shared_kernel_diagram.jpg>]
 
 이런 방식의 가상화는 Kernel이 시스템 리부팅 없이 동적으로 현재 Root File
 System을 변경할 수 있다는 것(리눅스, 유닉스의 chroot)에 기반한다. **이런 가상화의
