@@ -7,7 +7,11 @@ tags:
   - python
 comments: true
 ---
-OS는 각각의 프로세스들의 working directory들을 알고 있다. 하지만 Web-Application에서는 하나의 프로세스안에 여러 개의 Application들을 가질 가능성이 있다. Flask에서는 app.root_path와 os.path를 이용하여 원하는 파일을 찾을 수 있지만 Application이 package일 경우 root_path는 package의 contents를 바라보기 때문에 올바르게 작동하지 않는다.
+OS는 각각의 프로세스들의 working directory들을 알고 있다.
+하지만 Web-Application에서는 하나의 프로세스안에 여러 개의 Application들을
+가질 가능성이 있다. Flask에서는 app.root_path와 os.path를 이용하여 원하는
+파일을 찾을 수 있지만 Application이 package일 경우
+root_path는 package의 contents를 바라보기 때문에 올바르게 작동하지 않는다.
 
 이런 이유로 Flask 0.8에서 **flask.instance_path**라는 새로운 속성를 추가하였다. 이 속성은 Instance Folders라는 새로운 개념을 이용한다. Instance Folders는 version control안에 있지 않고 Deployment Specific이다. 그러므로 이 폴더가 config/설정 파일들을 넣기에는 최적의 장소이다.
 
