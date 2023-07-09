@@ -77,10 +77,10 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : chriskr7
+  username               :
 facebook:
-  username               : "chris.han.737"
-  app_id                 : "1741011195987114"
+  username               :
+  app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
@@ -111,7 +111,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "chris.han.737"
+  facebook         :
   foursquare       :
   github           : "chriskr7"
   gitlab           :
@@ -119,13 +119,13 @@ author:
   keybase          :
   instagram        : "writer.hans"
   lastfm           :
-  linkedin         :
+  linkedin         : "chris-han-30770876"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "HansdevKr"
+  twitter          :
   vine             :
   weibo            :
   xing             :
