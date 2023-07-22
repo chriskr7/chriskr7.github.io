@@ -49,7 +49,9 @@ $PREFIX/var/myapp-instance
 
 $PREFIX는 Python 설치 폴더이다.
 
-Flask에서는 보통 config 파일에서 config object를 load하므로 instance 폴더의 위치의 상관없이 instance 폴더안의 config 파일을 load할 수 있게 있다. (default는 application root 폴더를 보고 있다.)
+Flask에서는 보통 config 파일에서 config object를 load하므로 instance 폴더의 위치의
+상관없이 instance 폴더안의 config 파일을 load할 수 있게 있다. (default는 application
+root 폴더를 보고 있다.)  
 예를 들면 Uninstalled package가 아래와 같이 있다고 할 때
 
 ```python
@@ -58,14 +60,14 @@ Flask에서는 보통 config 파일에서 config object를 load하므로 instanc
 /instance
 ```
 
-**1번**
+##### 1번
 
 ```python
 app = Flask(__name__)
 app.config.from_pyfile('application.cfg', silent=True)
 ```
 
-**2번**
+##### 2번
 
 ```python
 app = Flask(__name__, instance_relative_config=True)

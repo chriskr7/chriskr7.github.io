@@ -31,6 +31,7 @@ U.S. EPA 연구에 의하면 서버 용량의 약 5%만 실제로 사용된다�
 높아지므로 서버 수가 줄어드는 효과를 가지고 온다.
 
 ### 데이터센터 유지비용 감소
+
 서버 수가 줄어들면 유지비용 및 전력, 관리비용 절감할 수 있다. 또한 관리자에게
 배정되는 서버 수가 줄어들기 때문에 안정성이 높아진다.
 
@@ -38,7 +39,6 @@ U.S. EPA 연구에 의하면 서버 용량의 약 5%만 실제로 사용된다�
 조사에 의하면 하드웨어 가상화로 **50 ~ 70% overall IT 비용**을 줄인
 사례들이 많다.
 {: .notice--warning}
-
 
 ## 하드웨어 가상화 기술의 종류 (Types of hardware virtualization technologies)
 
@@ -112,7 +112,6 @@ Kernel Virtualization과 비슷하다.
 Virtualization](https://www.dropbox.com/s/y3dh6o30kjsvv0p/kernel_level.jpg?raw=1)
 
 [image source: <https://www.virtuatopia.com/index.php?title=An_Overview_of_Virtualization_Techniques>]
-
 
 + **Kernel Level Virtualization 사용한 기술**
   + [User-mode Linux](http://user-mode-linux.sourceforge.net/)
