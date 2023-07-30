@@ -108,10 +108,11 @@ YAML은 좀더 복잡한 Syntax를 가지고 있다. 특히 Tags들은 다른 �
 {: .notice--warning}
 
 이를 해결하기 위해  YAML 1.2에서 다른 schema들을 정의하여 해결해보려 했지만
-YAML 1.1 기반으로 있게 되면서 이 문제를 해결하기 위해 PyYAML을 다시 쓴
-libyaml, SnakeYAML과 같은 다양한 라이브러리들이 파생되면서 더욱 더 생태계를
-혼잡하게 하였다. 현재는 StrictYAML이 이와 같은 문제점들을
-일부 해결하고 있다(StricYAML은 YAML 1.1 기반).  
+Python의 YAML 라이브러리인 PyYAML이 YAML 1.1 기반으로 있게 되면서 이 문제를
+해결하기 위해 PyYAML을 다시 쓴 libyaml, SnakeYAML과 같은 다양한 라이브러리들이
+파생되면서 더욱 더 생태계를 혼잡하게 하였다.  
+현재는 StrictYAML이 이와 같은 문제점들을 일부 해결하고
+있다(StricYAML은 YAML 1.1 기반).  
   
 이 포스트에서는 기존 YAML의 문제점들 중 하나로 알려진 **The Norway Problem**에
 대해서만 알아보도록 하자. 노르웨이의 국가코드는 NO이며 기존 YAML은 이를
