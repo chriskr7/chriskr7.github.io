@@ -211,6 +211,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-include-cache
   - jekyll-gist
   - jekyll-feed
   - jemoji
