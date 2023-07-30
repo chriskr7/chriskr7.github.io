@@ -7,6 +7,7 @@ tags:
   - aiomysql
   - RuntimeError
   - "Event loop is closed"
+  - python
 comments: true
 ---
 
