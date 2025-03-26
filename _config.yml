@@ -20,8 +20,8 @@ title                    : "Hans Tech Blog"
 title_separator          : "-"
 name                     : "Hansdev, Inc"
 description              : "Hans Tech Blog"
-url                      : "http://hansdev.kr"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://hansdev.kr"
+baseurl                  : ""
 repository               : "chriskr7/chriskr7.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -285,3 +285,7 @@ defaults:
       author_profile: true
 
 github: [metadata]
+
+sitemap:
+  changefreq: weekly
+  priority: 0.5
