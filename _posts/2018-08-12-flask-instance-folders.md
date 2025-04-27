@@ -51,7 +51,7 @@ $PREFIX는 Python 설치 폴더이다.
 
 Flask에서는 보통 config 파일에서 config object를 load하므로 instance 폴더의 위치의
 상관없이 instance 폴더안의 config 파일을 load할 수 있게 있다. (default는 application
-root 폴더를 보고 있다.)  
+root 폴더를 보고 있다.)
 예를 들면 Uninstalled package가 아래와 같이 있다고 할 때
 
 ```python
