@@ -99,4 +99,4 @@ with app.open_instance_resource('applicatoin.cfg') as f:
 
 ### Reference
 
-+ [Configuration Handling — Flask 1.0.2 documentation](http://flask.pocoo.org/docs/1.0/config/)
+* [Configuration Handling — Flask 1.0.2 documentation](http://flask.pocoo.org/docs/1.0/config/)
