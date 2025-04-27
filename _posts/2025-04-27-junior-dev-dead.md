@@ -8,6 +8,8 @@ tags:
 toc: true
 comments: true
 ---
+![JuniorDevDead](https://www.dropbox.com/scl/fi/svjck9j3kg7f65j359jpo/grim_reaper.jpg?rlkey=fxhpnmv8a5tk4rudctycwhmtn&dl=0)
+
 이 포스트에서는 현재 개발자 시장, 특히 주니어 개발자 시장의 현실과 미래에 대해 알아보려고 합니다.
 많은 사람들이 주니어 개발자의 입지가 줄어들고 있다는 소식을 듣고 있지만, 그 배경과
 구체적인 대응 방안에 대해서는 잘 모르는 경우가 많습니다. 이 포스트를 통해 AI 시대의
