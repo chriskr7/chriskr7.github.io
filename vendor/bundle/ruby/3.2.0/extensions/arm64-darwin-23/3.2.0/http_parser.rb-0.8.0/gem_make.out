@@ -1,0 +1,25 @@
+current directory: /Users/chrishan/work/chriskr7.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/Users/chrishan/.rbenv/versions/3.2.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/chrishan/work/chriskr7.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250427-16991-bbqfji sitelibdir\=./.gem.20250427-16991-bbqfji clean
+
+current directory: /Users/chrishan/work/chriskr7.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250427-16991-bbqfji sitelibdir\=./.gem.20250427-16991-bbqfji
+compiling ruby_http_parser.c
+ruby_http_parser.c:365:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
+  365 |     if (nparsed < len)
+      |         ~~~~~~~ ^ ~~~
+1 warning generated.
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+ld: warning: duplicate -rpath '/opt/homebrew/opt/llvm/lib/c++' ignored
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/chrishan/work/chriskr7.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250427-16991-bbqfji sitelibdir\=./.gem.20250427-16991-bbqfji install
+/opt/homebrew/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20250427-16991-bbqfji
+
+current directory: /Users/chrishan/work/chriskr7.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250427-16991-bbqfji sitelibdir\=./.gem.20250427-16991-bbqfji clean
