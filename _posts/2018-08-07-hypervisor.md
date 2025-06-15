@@ -136,7 +136,6 @@ Virtualization](https://www.dropbox.com/s/y3dh6o30kjsvv0p/kernel_level.jpg?raw=1
 
 [image source: <https://en.wikipedia.org/wiki/Hypervisor>]
 
-
 ## Type1 하이퍼바이저 가상화기술
 
 ### Protection Rings
