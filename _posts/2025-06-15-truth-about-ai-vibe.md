@@ -116,7 +116,7 @@ AttributeError: 'NoneType' object has no attribute 'items'
 놀랍게도 많은 사람들이 비싼 유료 강의를 구매하면서도 무료로 제공되는 공식 문서는 읽지 않습니다.
 
 **필수 참고 자료:**
-1. **Anthropic 공식 문서** (https://docs.anthropic.com)
+1. **Anthropic 공식 문서**
    - Prompt Engineering 가이드
    - System Prompts 설명
    - Best Practices
