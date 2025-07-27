@@ -279,6 +279,7 @@ Claude Code를 실행하고 다음 명령을 입력합니다:
 온보딩이 완료되면 상세한 프로젝트 분석 결과가 표시됩니다:
 
 ![serena_onboarding_result](https://www.dropbox.com/scl/fi/5on4b400j4gqirk511ukj/onboarding_result.png?rlkey=deiw7me5rbngx1bol2ujexre3&st=vmkbu5lx&dl=1)
+
 자, 여기까지 오셨으면 이제 Serena를 통합하여 Claude Code를 사용할 수 있습니다.
 
 ## Serena의 핵심 도구들과 활용법
