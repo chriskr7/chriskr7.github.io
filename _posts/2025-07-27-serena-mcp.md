@@ -468,6 +468,8 @@ $ARGUMENTS
 잊지마시고 Claude Code 시작할 때, Claude Code가 compacting 한 후 /init-serena Command를 입력해주세요. 그것만으로도 Serena로 많은 부분 혜택을 누릴 수 있습니다.
 아무쪼록 이 포스팅으로 Serena와 함께 HAPPY CLAUDE CODING 하시길 바랍니다.
 
+> 마지막 TIP: Claude Code를 실행하여 Serena MCP가 실행되면 자동으로 웹브라우저가 열리면서 Dash Board가 뜹니다. 이를 Turn off하시려면 ~/.serena/serena_config.yml에서 web_dashboard를 false로 해주시면 됩니다.
+
 ---
 
 ### References
