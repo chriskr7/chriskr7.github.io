@@ -1,10 +1,18 @@
 ---
 title:  "주니어 개발자는 죽었다"
+description: "AI 시대 주니어 개발자 시장의 변화와 생존 전략. 업계 진입 장벽 상승과 AI 도구 활용을 통한 경쟁력 확보 방법을 제시합니다."
 categories: opinion
 tags:
   - junior
   - developer
   - dead
+  - 주니어개발자
+  - AI
+  - 커리어
+  - 취업
+  - 개발자시장
+  - tech-career
+  - future-of-work
 toc: true
 comments: true
 ---

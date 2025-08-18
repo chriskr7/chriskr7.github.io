@@ -1,5 +1,6 @@
 ---
 title:  "간단히 알아보는 대표적인 블록체인 동의 알고리즘"
+description: "PoW vs PoS: 블록체인의 핵심 합의 메커니즘 분석 - 작동 원리, 장단점, 실제 활용 사례 완벽 정리"
 categories: tech
 tags:
   - blockchain
@@ -10,6 +11,9 @@ tags:
   - proof of stake
   - pow
   - pos
+  - cryptocurrency
+  - decentralization
+  - crypto-technology
 toc: false
 comments: true
 ---

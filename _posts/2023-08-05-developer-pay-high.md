@@ -1,11 +1,17 @@
 ---
 title:  "개발자 연봉은 거품인가?"
+description: "개발자 연봉이 높은 이유를 경제학적 관점에서 분석합니다. 시장 원리와 가치 창출을 통해 개발자 보상체계의 합리성을 설명."
 categories: opinion
 tags:
   - developer
   - 개발자 
   - 연봉
   - 개발자연봉
+  - IT산업
+  - 커리어
+  - 경제
+  - 시장가치
+  - tech-career
 comments: true
 ---
 

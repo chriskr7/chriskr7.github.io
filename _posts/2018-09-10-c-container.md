@@ -1,11 +1,15 @@
 ---
 title:  "C Container"
+description: "C 언어로 구현한 유연한 동적 컨테이너 라이브러리: 메모리 관리와 큐 구현의 핵심 기술 탐구"
 categories: programming
 tags:
   - c
   - container
   - queue
   - c queue
+  - memory-management
+  - data-structures
+  - low-level-programming
 comments: true
 ---
 가끔 C++이 Support 되지 않는 machine(보통 old unix machine)에서 C로 작업할

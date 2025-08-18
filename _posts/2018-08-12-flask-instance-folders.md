@@ -1,10 +1,16 @@
 ---
 title:  "Flask Instance Folders"
+description: "Flask에서 instance folder를 사용하여 설정 파일과 민감한 데이터를 안전하게 관리하는 방법. package와 module 환경에서의 차이점 설명."
 categories: programming
 tags:
   - flask
   - "instance folders"
   - python
+  - 플라스크
+  - 웹개발
+  - configuration
+  - 설정관리
+  - web-development
 comments: true
 ---
 OS는 각각의 프로세스들의 working directory들을 알고 있다.

@@ -1,11 +1,17 @@
 ---
 title: 'Serena MCP 개요와 설치, Claude Code 통합'
+description: "Serena MCP로 LLM 코딩 어시스턴트를 강화하는 방법. Claude Code와 통합하여 시맨틱 코드 검색과 편집 기능을 활용하는 가이드."
 categories: tech
 tags:
   - Serena
   - MCP
   - ClaudeCode
   - 클로드코드
+  - AI-coding
+  - LLM
+  - 코드어시스턴트
+  - semantic-search
+  - development-tools
 toc: true
 comments: true
 ---

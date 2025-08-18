@@ -1,10 +1,16 @@
 ---
 title:  "TOML Introduction"
+description: "TOML 설정 파일 포맷의 기본 개념과 문법, Python에서 활용하는 방법을 알아봅니다. YAML, JSON과의 비교 및 실용적인 사용 예제 포함."
 categories: programming tech
 tags:
   - toml
   - yaml
   - python
+  - configuration
+  - 설정파일
+  - json
+  - file-format
+  - pyproject
 comments: true
 ---
 

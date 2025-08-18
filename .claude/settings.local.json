@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__sequentialthinking__sequentialthinking",
+      "mcp__perplexity-ask__perplexity_ask",
+      "mcp__tavily-mcp__tavily-search"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

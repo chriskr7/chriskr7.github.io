@@ -1,5 +1,6 @@
 ---
 title:  "RuntimeError: Event loop is closed 처리"
+description: "Python asyncio에서 발생하는 Event loop is closed 에러 해결 및 Windows 환경에서의 비동기 프로그래밍 팁"
 categories: programming
 tags:
   - SQLAlchemy
@@ -8,6 +9,9 @@ tags:
   - RuntimeError
   - "Event loop is closed"
   - python
+  - async-programming
+  - python-concurrency
+  - debugging
 comments: true
 ---
 

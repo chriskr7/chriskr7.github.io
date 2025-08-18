@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Hans Tech Blog"
 title_separator          : "-"
 name                     : "Hansdev, Inc"
-description              : "Hans Tech Blog"
+description              : "개발, 시스템 설계, 기술 트렌드를 다루는 Hans의 기술 블로그"
 url                      : "https://hansdev.kr"
 baseurl                  : ""
 repository               : "chriskr7/chriskr7.github.io"
@@ -86,9 +86,11 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Hans
+  links:
+    - "https://github.com/chriskr7"
+    - "https://www.linkedin.com/in/chriskr7"
 
 # Analytics
 analytics:
@@ -119,7 +121,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "chris-han-30770876"
+  linkedin         : "chriskr7"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -211,6 +213,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-include-cache
   - jekyll-gist
   - jekyll-feed

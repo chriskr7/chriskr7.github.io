@@ -1,9 +1,17 @@
 ---
 title:  "Secret Management - Infisical"
+description: "Infisical을 활용한 효율적인 비밀 관리 방법. API 키, 비밀번호 등 민감한 데이터를 안전하게 관리하고 팀과 공유하는 모범 사례."
 categories: tech
 tags:
   - secret manager
   - infisical
+  - 비밀관리
+  - security
+  - DevOps
+  - API-keys
+  - 보안
+  - configuration
+  - environment-variables
 toc: false
 comments: true
 ---

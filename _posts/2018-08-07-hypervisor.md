@@ -1,8 +1,18 @@
 ---
 title:  "하이퍼바이저(Hypervisor)"
+description: "하이퍼바이저의 개념과 Type 1, Type 2 차이점, 주요 제품들을 알아봅니다. 가상화와 클라우드 컴퓨팅의 핵심 기술인 하이퍼바이저 완벽 가이드."
 categories: tech
 tags:
   - hypervisor
+  - 하이퍼바이저
+  - virtualization
+  - 가상화
+  - cloud
+  - 클라우드
+  - VMware
+  - KVM
+  - Xen
+  - VirtualBox
 toc: true
 comments: true
 ---

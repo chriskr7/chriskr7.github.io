@@ -1,5 +1,6 @@
 ---
 title:  "AI 바이브 코딩의 진실: 마법의 도구가 아닌 실력의 증폭기"
+description: "AI 코딩 도구의 현실적인 한계와 효과적인 활용법. Cursor와 Claude를 통한 실제 개발 경험과 개발자 기본기의 중요성."
 categories: tech
 tags:
   - AI코딩
@@ -8,6 +9,9 @@ tags:
   - Claude
   - 클로드
   - 프롬프트엔지니어링
+  - AI-tools
+  - 개발생산성
+  - coding-assistant
 toc: true
 comments: true
 ---
